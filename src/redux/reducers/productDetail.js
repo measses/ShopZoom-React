@@ -1,5 +1,6 @@
 
 
+
 export const productsDetailReducer = (state={products:{}}, action ) => {
     switch (action.type) {
         case "GET_DETAILS":

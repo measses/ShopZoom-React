@@ -9,7 +9,7 @@ const Card = () => {
   const { cardItems } = useSelector((state) => state.card);
 
   const deleteCard = (id) => {
-    // @ts-ignore
+    // @ts-ignore.
     dispatch(removeCard(id));
   };
 

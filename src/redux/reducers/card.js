@@ -17,6 +17,7 @@ export const cardReducer = (state = { cardItems: [] }, action) => {
             cardItems: [...state.cardItems, item],
           };
         }
+
   
       case "REMOVE_CARD":
         return {

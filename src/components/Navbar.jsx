@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { searchActions } from "../redux/actions/search";
 import { ImExit } from "react-icons/im";
 
-// Yüklenme durumunu temsil eden bileşen
+// Yüklenme durumunu temsil eden bileşen.
 const LoadingOverlay = () => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 z-50">

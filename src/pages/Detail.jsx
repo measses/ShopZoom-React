@@ -9,7 +9,7 @@ import { productsCard } from "../redux/actions/card";
 
 const getDetailClasses = (isDarkMode) => {
   if (isDarkMode) {
-    // Dark mode sınıfları
+    // Dark mode sınıfları.
     return {
       container: "dark-mode-container",
       title: "dark-mode-title",
