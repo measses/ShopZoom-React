@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { Link } from "react-router-dom"; // Link eklemeyi unutmayın
+import { Link } from "react-router-dom";
 import { productsCard } from "../redux/actions/card";
 
 const ProductCard = ({ prd }) => {
@@ -13,21 +13,21 @@ const ProductCard = ({ prd }) => {
   };
 
   return (
-    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 h-[350px] border rounded-lg m-2 flex shadow shadow-blue-500/40 hover:shadow-indigo-500/40 flex-col items-center p-1 space-y-2 relative group overflow-hidden transition-transform duration-300 ease-in-out transform hover:scale-105">
-      <Link to={`detail/${prd.id}`}> {/* Link'i buraya ekleyin */}
+    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 h-[325px] border rounded-lg m-2 flex shadow shadow-blue-500/40 hover:shadow-indigo-500/40 flex-col items-center p-1 space-y-2 relative group overflow-hidden transition-transform duration-300 ease-in-out transform hover:scale-105">
+      <Link to={`detail/${prd.id}`} className="image-container">
         <img
           src={prd?.image}
           className="h-32 w-50 object-fill cursor-pointer"
           alt=""
         />
-        <div className="font-bold h-16 text-center mt-2">
-          {(prd?.title).substring(0, 45)}
-        </div>
-        <div className="text-center opacity-70 text-sm">
-          {(prd?.description).substring(0, 55)}...
-        </div>
-        <div className="font-bold text-lg">{prd?.price} TL</div>
       </Link>
+      <div className="font-bold h-11 text-center">
+        {(prd?.title).substring(0, 45)}
+      </div>
+      <div className="text-center opacity-70 text-sm -mt-10">
+        {(prd?.description).substring(0, 55)}...
+      </div>
+      <div className="font-bold text-lg">{prd?.price} TL</div>
       <button
         onClick={() => addCard(prd.id, 1)}
         className="relative inline-flex items-center justify-center px-5 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500"
