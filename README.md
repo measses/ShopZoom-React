@@ -25,11 +25,14 @@ ShopZoom, React ve Vite ile geliştirilmiş bir e-ticaret uygulamasıdır. Bu pr
    git clone https://github.com/sizin-kullanici-adi/shop-zoom.git
 
 1) Proje dizinine gidin:
- ```cd shop-zoom ```
+2) ```bash
+   cd shop-zoom
 2)Bağımlılıkları yükleyin:
-```npm install```
+```bash
+   npm install
 3)Uygulamayı başlatın:
-``` npm run dev```
+```bash
+   npm run dev
 
 
 ## Ekran Görüntüleri
