@@ -25,7 +25,7 @@ function App() {
           <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="detail/:id" element={<Detail isDarkMode={isDarkMode} />} />
+            <Route path="products/:id" element={<Detail isDarkMode={isDarkMode} />} />
           </Routes>
           {drawer && <Card />}
           <Footer isDarkMode={isDarkMode} />
