@@ -17,7 +17,7 @@ const ProductCard = ({ prd }) => {
     <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 h-[350px] border rounded-lg m-2 flex shadow shadow-blue-500/40 hover:shadow-indigo-500/40 flex-col items-center p-1 space-y-2 relative group overflow-hidden transition-transform duration-300 ease-in-out transform hover:scale-105">
     
     <img
-      onClick={() => (window.location.href = `https://fakestoreapi.com/products/${prd.id}`)}
+      onClick={() => (window.location.href = `detail/${prd.id}`)}
       src={prd?.image}
       className="h-32 w-50 object-fill cursor-pointer"
       alt=""
