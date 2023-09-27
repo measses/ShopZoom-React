@@ -1,8 +1,43 @@
-# React + Vite
+# ShopZoom - E-Ticaret Projesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopZoom, React ve Vite ile geliştirilmiş bir e-ticaret uygulamasıdır. Bu projede Redux, React Icons, React Router ve Tailwind CSS gibi teknolojiler kullanılmıştır.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Kullanıcılar ürünleri inceleyebilir ve sepete ekleyebilir.
+- Kullanıcılar sepetlerindeki ürünleri artırabilir veya silebilir.
+- Ürün detay sayfasında ürün hakkında daha fazla bilgi alabilir ve sepete ekleyebilirler.
+
+## Kullanılan Teknolojiler
+
+- React: Kullanıcı arayüzünün geliştirilmesi için kullanıldı.
+- Vite: Hızlı ve modern bir geliştirme ortamı sağlamak için kullanıldı.
+- Redux: Uygulama durumu yönetimi için kullanıldı.
+- React Icons: Temiz ve özelleştirilebilir ikonlar eklemek için kullanıldı.
+- React Router: Tek sayfa uygulaması (SPA) navigasyonu sağlamak için kullanıldı.
+- Tailwind CSS: Hızlı ve yeniden kullanılabilir stil oluşturmak için kullanıldı.
+
+## Nasıl Kullanılır
+
+1. Projeyi klonlayın:
+
+   ```bash
+   git clone https://github.com/sizin-kullanici-adi/shop-zoom.git
+
+1) Proje dizinine gidin:
+ ```cd shop-zoom ```
+2)Bağımlılıkları yükleyin:
+```npm install```
+3)Uygulamayı başlatın:
+``` npm run dev```
+
+
+## Ekran Görüntüleri
+
+
+## Katkıda Bulunma
+Hata raporları ve öneriler için GitHub Pull Request atabilirsiniz.
+## Lisans
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına başvurun.
+
+
