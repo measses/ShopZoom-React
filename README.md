@@ -6,6 +6,7 @@ ShopZoom, React ve Vite ile geliştirilmiş bir e-ticaret uygulamasıdır. Bu pr
 
 - Kullanıcılar ürünleri inceleyebilir ve sepete ekleyebilir.
 - Kullanıcılar sepetlerindeki ürünleri artırabilir veya silebilir.
+- Kullanıcılar ürünleri Search edebilir.
 - Dark Mode kullanabilir.
 - Ürün detay sayfasında ürün hakkında daha fazla bilgi alabilir ve sepete ekleyebilirler.
 
