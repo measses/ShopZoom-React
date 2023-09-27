@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+min-height: 100vh;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+    /* Diğer dark mode stilleri */
+  }
