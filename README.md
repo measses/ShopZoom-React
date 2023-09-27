@@ -32,6 +32,7 @@ ii) ```bash
 iii)Bağımlılıkları yükleyin:
 ```bash
    npm install
+```
 
 ## Ekran Görüntüleri
 
